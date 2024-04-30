@@ -1,0 +1,114 @@
+ body{
+    background-image: url(./images/narchuz.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+ 
+ 
+ .list{
+    display: flex;
+    justify-content:baseline;
+    list-style-type: none;
+    gap: 20px;
+ }
+ 
+ .egg {
+     width: 300px;
+     height: 330px;
+     background-color: hwb(159 43% 3%);
+     border-radius: 50%;
+    animation: slideInFromBottom 4s ease-in-out infinite;
+ }
+ @keyframes slideInFromBottom {
+     0% {
+         transform: translateY(100%);
+         opacity: 0;
+     }
+
+     100% {
+         transform: translateY(0);
+         opacity: 1;
+     }
+ }
+
+ .egg2 {
+     width: 300px;
+     height: 330px;
+     background-color: hwb(260 43% 3%);
+     border-radius: 50%;
+    animation: slideInFromBottom 4s ease-in-out infinite;
+    }
+    
+    @keyframes slideInFromBottom {
+        0% {
+            transform: translateY(100%);
+            opacity: 0;
+        }
+    
+        100% {
+            transform: translateY(0);
+            opacity: 1;
+        }
+
+ }
+.egg3 {
+    width: 300px;
+    height: 330px;
+    background-color: hwb(23 43% 3%);
+    border-radius: 50%;
+    animation: slideInFromBottom 4s ease-in-out infinite;
+    }
+    
+    @keyframes slideInFromBottom {
+        0% {
+            transform: translateY(100%);
+            opacity: 0;
+        }
+    
+        100% {
+            transform: translateY(0);
+            opacity: 1;
+        }
+   
+}
+.egg4 {
+    width: 300px;
+    height: 330px;
+    background-color: hwb(291 0% 47%);
+    border-radius: 50%;
+    animation: slideInFromBottom 4s ease-in-out infinite;
+    }
+    
+    @keyframes slideInFromBottom {
+        0% {
+            transform: translateY(100%);
+            opacity: 0;
+        }
+    
+        100% {
+            transform: translateY(0);
+            opacity: 1;
+        }
+}
+.egg5 {
+    width: 300px;
+    height: 330px;
+    background-color: hwb(134 0% 47%);
+    border-radius: 50%;
+    animation: slideInFromBottom 4s ease-in-out infinite;
+    }
+    
+    @keyframes slideInFromBottom {
+        0% {
+            transform: translateY(100%);
+            opacity: 0;
+        }
+    
+        100% {
+            transform: translateY(0);
+            opacity: 1;
+        }
+}
+
+
+ 
