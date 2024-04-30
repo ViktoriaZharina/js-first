@@ -1,7 +1,10 @@
  body{
-    background-image: url(./images/narchuz.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
+  background-color: antiquewhite;
+ }
+
+ p{
+    position: fixed;
+    bottom: 10px;
  }
  
  
@@ -9,12 +12,12 @@
     display: flex;
     justify-content:baseline;
     list-style-type: none;
-    gap: 20px;
+    gap: 5px;
  }
  
  .egg {
-     width: 300px;
-     height: 330px;
+     width: 50px;
+     height: 65px;
      background-color: hwb(159 43% 3%);
      border-radius: 50%;
     animation: slideInFromBottom 4s ease-in-out infinite;
@@ -32,8 +35,8 @@
  }
 
  .egg2 {
-     width: 300px;
-     height: 330px;
+     width: 50px;
+     height: 65px;
      background-color: hwb(260 43% 3%);
      border-radius: 50%;
     animation: slideInFromBottom 4s ease-in-out infinite;
@@ -52,8 +55,8 @@
 
  }
 .egg3 {
-    width: 300px;
-    height: 330px;
+    width: 50px;
+    height: 65px;
     background-color: hwb(23 43% 3%);
     border-radius: 50%;
     animation: slideInFromBottom 4s ease-in-out infinite;
@@ -72,8 +75,8 @@
    
 }
 .egg4 {
-    width: 300px;
-    height: 330px;
+    width: 50px;
+    height: 65px;
     background-color: hwb(291 0% 47%);
     border-radius: 50%;
     animation: slideInFromBottom 4s ease-in-out infinite;
@@ -91,8 +94,8 @@
         }
 }
 .egg5 {
-    width: 300px;
-    height: 330px;
+    width: 50px;
+    height: 65px;
     background-color: hwb(134 0% 47%);
     border-radius: 50%;
     animation: slideInFromBottom 4s ease-in-out infinite;
@@ -109,6 +112,64 @@
             opacity: 1;
         }
 }
+@media screen and (min-width: 768px){
+.list {
+
+        gap: 15px;
+    }
+        .egg {
+            width: 150px;
+            height: 185px;}
+        .egg2{
+            width: 150px;
+                height: 185px;
+            }
+        .egg3 {
+            width: 150px;
+            height: 185px;
+            }
+        .egg4 {
+        width: 150px;
+        height: 185px;
+        }
+        .egg5 {
+        width: 150px;
+        height: 185px;
+        }
+        }  
+        
+    @media screen and (min-width: 1158px){
+        .list {
+        
+                gap: 25px;
+            }
+        
+            .egg {
+                width: 250px;
+                height: 300px;
+            }
+        
+            .egg2 {
+                width: 250px;
+                height: 300px;
+            }
+        
+            .egg3 {
+                width: 250px;
+                height: 300px;
+            }
+        
+            .egg4 {
+                width: 250px;
+                height: 300px;
+            }
+        
+            .egg5 {
+                width: 250px;
+                height: 300px;
+            }
+
+    }
 
 
  
